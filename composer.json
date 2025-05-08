@@ -1,0 +1,40 @@
+{
+    "name": "acceptrics/acceptrics_typo3",
+    "type": "typo3-cms-extension",
+    "description": "This TYPO3 extension installs the Acceptrics Banner",
+    "homepage": "https://github.com/acceptrics/acceptrics_typo3",
+    "keywords": [
+        "TYPO3",
+        "Acceptrics",
+        "Banner",
+        "Consent"
+    ],
+    "license": [
+        "GPL-2.0-or-later"
+    ],
+    "authors": [
+        {
+            "name": "Acceptrics Support",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Acceptrics\\Acceptrics_Typo3\\": "Classes"
+        }
+    },
+     "replace": {
+        "typo3-ter/acceptrics_typo3": "self.version"
+    },
+    "require": {
+        "typo3/cms-core": "^10.4.0||^11.5.0"
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "acceptrics_typo3"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/acceptrics/acceptrics_typo3/issues"
+    }
+}

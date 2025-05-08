@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2025-04-14UTC15:31:480"
+        product-name="acceptrics_typo3">
+        <header>
+            <authorName>Acceptrics Support</authorName>
+            <authorEmail>support@acceptrics.com</authorEmail>
+        </header>
+        <body>
+            <trans-unit id="extension.title">
+                <source>Acceptrics Banner</source>
+            </trans-unit>
+            <trans-unit id="tx_acceptrics_typo3_domain_model_service">
+                <source>Service</source>
+            </trans-unit>
+            <trans-unit id="tx_acceptrics_typo3_domain_model_service.service_id">
+                <source>Id</source>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>

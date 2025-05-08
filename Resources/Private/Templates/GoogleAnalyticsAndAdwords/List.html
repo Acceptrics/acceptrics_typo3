@@ -1,0 +1,12 @@
+<html xmlns:f="http://typo3.org/ns/TYPO3/CMS/Fluid/ViewHelpers" data-namespace-typo3-fluid="true">
+<f:asset.script identifier="73945728" priority="true">
+    window.acceptrics = {};
+    localStorage.setItem("__acceptrics_conf",
+    JSON.stringify({"gcmAdvanced":"false","backgroundColor":"#333","fontColor":"#ffffff","geoArea":"worldwide","accountNum":"{services.0.serviceId}","useTranslation":true,"bannerStyle":""}));
+    document.addEventListener("__acceptrics_loaded", () =>{window.acceptrics.initializeSettings();});
+</f:asset.script>
+<f:asset.script async="{false}" identifier="73945729" priority="true"
+    src="https://cdn.acceptrics.com/?n={services.0.serviceId}">
+</f:asset.script>
+
+</html>
